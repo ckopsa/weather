@@ -5,11 +5,16 @@ Created to be used in my polybar setup because I didn't like needing an api key
 to get the weather.
 ** Usage
 #+BEGIN_SRC sh
-  ./weather [zip-code]
+  ./weather.py [zip-code]
   # OR
-  python3 weather [zip-code]
+  python3 weather.py [zip-code]
 #+END_SRC
 ** Dependencies
 #+BEGIN_SRC sh
   pip install bs4
 #+END_SRC
+** Setup
+   /weather.py/ uses the file /weather.txt/ to write the most recent weather to,
+   in the event a request times out. Creating this file is crucial to the
+   successful use of /weather.py/.
+** TODO polybar
