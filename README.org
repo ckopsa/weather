@@ -17,4 +17,13 @@ to get the weather.
    /weather.py/ uses the file /weather.txt/ to write the most recent weather to,
    in the event a request times out. Creating this file is crucial to the
    successful use of /weather.py/.
-** TODO polybar
+** polybar
+#+BEGIN_SRC conf
+[module/weather]
+type = custom/script
+interval = 300
+format = <label>
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+exec = ~/.config/polybar/weather.py 83440
+#+END_SRC
