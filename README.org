@@ -1,0 +1,7 @@
+* weather
+A python script to pull the weather from weather.com given a US Zipcode
+
+** Usage
++#BEING_SRC
+./weather [zip-code]
++#END_SRC
