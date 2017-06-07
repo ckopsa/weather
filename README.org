@@ -6,4 +6,10 @@ to get the weather.
 ** Usage
 #+BEGIN_SRC sh
   ./weather [zip-code]
+  # OR
+  python3 weather [zip-code]
+#+END_SRC
+** Dependencies
+#+BEGIN_SRC sh
+  pip install bs4
 #+END_SRC
