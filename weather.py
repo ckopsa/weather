@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-import requests, bs4, sys
+import requests, bs4, sys, os
 
-weatherFilePath = "./weather.txt"
+weatherFilePath = os.getcwd() + "/weather.txt"
+print(weatherFilePath)
 url = "https://weather.com/weather/today/l/"
 zip = sys.argv[1]
 ext = ":4:US"
