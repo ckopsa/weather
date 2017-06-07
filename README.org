@@ -1,5 +1,8 @@
 * weather
-A python script to pull the weather from weather.com given a US Zipcode
+A python script to pull the weather from weather.com given a US zip-code.
+
+Created to be used in my polybar setup because I didn't like needing an api key
+to get the weather.
 ** Usage
 #+BEGIN_SRC sh
   ./weather [zip-code]
